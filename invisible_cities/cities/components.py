@@ -214,18 +214,15 @@ def index_tables(file_out):
 def dict_to_string(arg : dict,
                 parent_key : str= ""):
     '''
-    A function that recusively flattens a nested dictionary and converts the values to strings.
+    A function that recusively flattens nested dictionaries and converts the values to strings.
 
     Each nested key is combined with its parent keys and associated with its respective value 
     as a string.
-
-    Also handles non dictionary entries.
 
     Parameters
     ----------
     arg        : the dictionary to flatten which can contain nested dictionaries
     parent_key : the string containing the prefix to use for keys in the flattened dictionary (default "").
-    dev        : the separator string to join parent and child keys (default ".")
 
     Returns
     -------
