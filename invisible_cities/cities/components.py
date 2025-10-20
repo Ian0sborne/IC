@@ -212,7 +212,7 @@ def index_tables(file_out):
 
 
 def dict_to_string(arg : dict,
-                parent_key : str= ""):
+                   parent_key : str= ""):
     '''
     A function that recusively flattens nested dictionaries and converts the values to strings.
 
