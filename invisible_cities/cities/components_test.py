@@ -558,7 +558,7 @@ def test_add_git_info():
         # keep a copy of the current branch
         current_branch = run_git_command("git branch --show-current")
 
-        print("")
+        print("nothing")
 
         # create a testing branch
         testing_branch = 'function-testing-branch'
